@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my blog</title>
+    <link rel="stylesheet" type="text/css" href="bg.css">
+    <style>
+        .about{
+       background-color: rgba(0, 0, 0, 0.136);
+      
+        }
+        .container{
+            width: 100%;
+            height: 90%;
+            position: relative;
+            left:250px;
+        }
+        .card{
+            width:400px;
+            height:380px;
+            display:flex ;
+            flex-wrap: wrap;
+            flex-direction: row;
+            position:absolute;
+            column-gap: 15px;
+            top:100px;
+            left:80px;
+        }
+        .ct{
+            width:150px;
+            height:170px;
+           border-radius: 5px;
+            background-color: rgb(208, 251, 191);
+        }
+        .fm{
+            width:500px;
+            height:450px;
+           padding-top: 0px;
+            background-color: rgb(117, 230, 255);
+            position: absolute;
+            left:300px;
+            top:50px;
+            box-shadow: 10px 10px 18px black;
+        }
+        .frm{
+           
+            padding-top: 60px;
+            position: relative;
+            height: 440px;
+            width:450px;
+            left: 70px;
+        }
+        img{
+            margin-top:10px;
+            border-radius: 5px;
+            height:50px;
+            width: 50px;
+
+        }
+        h2{
+          margin: 0%;
+        }
+        a{
+            color: black;
+        }
+        h1{
+            font-size: 35pt;
+        }
+        input{
+            width:350px;
+            height: 35px;
+            border:0px;
+        }
+        textarea{
+            width:350px;
+            height:60px;
+            border: 0px;
+        }
+        #st{
+            width:100px;
+            height:30px;
+            color:rgb(102, 216, 241);
+            background-color: black;
+           border-radius: 10px;
+        }
+     
+        #out{
+            background-color: rgb(117, 230, 255);
+            width:355px;
+            height:350px;
+            position: absolute;
+            bottom:120px;
+            left:668px;
+            display: none;
+            border-radius: 20px;
+            color:black;
+            font-size: 25pt;
+            text-align: justify;
+            
+                }
+              
+          
+                #w{
+                    display:none;
+                    text-decoration: underline;
+                    
+                }
+        
+    </style>
+ 
+</head>
+<body>
+    <div class="about">
+        <div class="nav">
+            <a href="bg.html" class="a1" >HOME</a>
+            <a href="f1.html" class="a1">ABOUT</a>
+            <a href="f2.html" class="a1 ">EDUCATION</a>
+            <a href="f3.html" class="a1">SKILL</a>
+            <a href="f4.html" class="a1">PROJECT</a>
+            <a href="f5.html" class="a1" style="background-color:aliceblue ;color:black">CONTACT</a>
+        </div>  
+        <div class="container">
+            <div class="fm">
+                
+                <div class="frm">
+                    <h2 id="w">Thanks For Your Details</h2>
+                    <h1>Contact Me</h1>
+                    <form id="j">
+                       
+                        <input type="text" id="n1"  placeholder="Enter Your Name"><br><br>
+                        
+                        <input type="email" id="n2" placeholder="Enter a Valid email Address"><br><br>
+                        <textarea placeholder="Comments" id="n3"></textarea><br><br>
+                       <input type="submit" id="st">
+                      
+                    </form>
+                   
+                </div>
+            </div>
+        <div class="card">
+            <div class="ct">
+                <img src="loc.png" alt="">
+                <h2>Home</h2>
+                <h4>22,MT Street Senjai,Karaikudi</h4>
+            </div>
+            <div class="ct">
+                <img src="https://www.shutterstock.com/image-vector/phone-icon-vector-call-outgoing-260nw-1022325937.jpg" alt="">
+                <h2>Phone</h2>
+                <h4>9790037324</h4>
+            </div>
+            <div class="ct">
+                <img src="https://www.pngkit.com/png/detail/1-11155_email-envelope-letter-send-inbox-newsletter-png-email.png" alt="">
+                <h2>Email</h2>
+                <h5><a href="mailto:lkvignesh13@gmail.com">lkvignesh13@gmail.com</a></h5>
+            </div>
+            <div class="ct">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8kVzLvumv3KGLYEP_Da5MeOV0IyZ33KpGqPL5W8A&s" alt="">
+                <h2>Instagram</h2>
+                <h5><a href="https://www.instagram.com/accounts/login/">My Account</a></h5>
+            </div>
+        </div>
+    
+        
+        </div>
+    
+        <div id="out">
+            <h5 id="out1"></h5>
+<h5 id="in"></h5>
+<h5 id="io"></h5>
+        </div>
+        <script src="cont.js"></script>
+    </div> 
+   
+</body>
+</html>

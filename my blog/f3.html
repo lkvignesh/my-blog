@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my blog</title>
+    <link rel="stylesheet" type="text/css" href="bg.css">
+    <style>
+        .about{
+            background-color: rgba(0, 0, 0, 0.136);
+            position: relative;
+        }
+        .container{
+            
+            height: 90%;
+            width:100%;
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            column-gap:500px;         
+        }
+        .skill{
+            padding: 15px;
+            margin-top:35px;
+            height: 200px;
+            width:200px;
+            border:2px solid black;
+            border-radius:15px ;
+            box-shadow:10px 10px 10px  black ;     
+        }
+        .skill:hover{
+            cursor: pointer;
+            box-shadow:20px 20px 15px  black ;
+        }
+        .sk{
+            position: absolute;
+            height: 100px;
+            width: 150px;
+            border:3px solid black;
+            box-shadow: 10px 10px 20px 10px  black;
+            border-radius:15px;
+           bottom:300px;
+           left:650px;
+        }       
+        ul li{
+            text-align: justify;
+            font-size: 13pt;
+        }
+        .skill:nth-child(1){
+            background-color: rgb(178, 216, 249);
+        }
+        .skill:nth-child(2){
+            background-color: rgb(186, 244, 190);
+        }
+        .skill:nth-child(3){
+            background-color: rgb(195, 195, 240);
+        }
+        .skill:nth-child(4){
+            background-color: rgb(246, 183, 183);
+        }
+        .sk{
+            background-color: rgb(204, 139, 206);
+        }
+    </style>
+</head>
+<body>
+    <div class="about">
+        <div class="nav">
+            <a href="bg.html" class="a1">HOME</a>
+            <a href="f1.html" class="a1">ABOUT</a>
+            <a href="f2.html" class="a1">EDUCATION</a>
+            <a href="f3.html" class="a1" style="background-color:aliceblue ;color:black">SKILL</a>
+            <a href="f4.html" class="a1">PROJECT</a>
+            <a href="f5.html" class="a1">CONTACT</a>
+        </div>
+        <div class="sk"><h2>SKILL <br>SET</h2></div>
+        <div class="container">
+            <div class="skill">
+                <h2><u>SOFT SKILLS</u></h2>
+                <ul>                   
+                    <li>Communication </li>
+                    <li>Active Listening</li>
+                    <li>Teamwork</li>
+                    <li>Trust Worthy</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h2><u>CORE SKILLS</u></h2>
+                <ul>
+                    <li>CADD</li>
+                    <li>Surveying</li>
+                    <li>STADD pro</li>
+                    <li>Designing</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h2><u>FRONTEND SKILLS</u></h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h2><u>BACKEND SKILLS</u></h2>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>DATABASE</li>
+                </ul>
+            </div>
+            
+        </div>
+        
+       </div>
+</body>
+</html>
